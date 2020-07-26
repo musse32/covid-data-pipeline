@@ -26,7 +26,7 @@ An HMTL file will be created at the project directory level. Open the file to vi
 
 
 ## Project Tree
-
+```
 ├───covid_project
 │   └───data_pipeline
 │       ├───_1_elt
@@ -40,5 +40,6 @@ An HMTL file will be created at the project directory level. Open the file to vi
 │       ├───_3_publish
 │       │   └───__pycache__
 │       └───__pycache__
+```
 
 
