@@ -21,6 +21,9 @@ Clone or download this repository. Extract the contents and navigate to the proj
 
 An HMTL file will be created at the project directory level. Open the file to view in your default browser. The sliding bar on the top of the map scrolls from left to right over the timeline of the dataset. The map shows states and their running total of deaths from COVID-19 over the given time span. 
 
+### Example running on my personal website https://hamza-musse-portfolio.herokuapp.com/projects
+![](https://github.com/musse32/covid-data-pipeline/blob/master/example_map.PNG?raw=true)
+
 
 ## Project Tree
 
