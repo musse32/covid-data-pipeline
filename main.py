@@ -1,10 +1,10 @@
 import os
 from datetime import datetime, date, timedelta
-from data_pipeline._1_elt.elt import elt_mongodb
-from data_pipeline._2_metrics.metrics_pandas import covid_metrics
-from data_pipeline._2_metrics.metrics_pandas import wrangle
-from data_pipeline._2_metrics.metrics_pandas import save_backup
-from data_pipeline._3_publish.maps import generate_map
+from data_pipeline.elt.elt import elt_mongodb
+from data_pipeline.metrics.metrics_pandas import covid_metrics
+from data_pipeline.metrics.metrics_pandas import wrangle
+from data_pipeline.metrics.metrics_pandas import save_backup
+from data_pipeline.publish.map import generate_map
 
 ## Load required files ##
 tbl1, cols_to_select, id_fields = elt_mongodb()
